@@ -40,7 +40,6 @@ function inHinhChuNhat($chieuRong, $chieuCao) {
         for ($j = 0; $j < $chieuRong; $j++) {
             echo "*";
         }
-        // Dùng thẻ <br> để xuống dòng trên giao diện web
         echo "<br>"; 
     }
 }
