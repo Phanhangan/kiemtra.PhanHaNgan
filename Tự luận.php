@@ -32,14 +32,16 @@ if (kiemTraNguyenTo($soCanKiemTra)) {
 }
 ?>
 
-//Bài 3:
+
+// Câu 3: 
 <?php
 function inHinhChuNhat($chieuRong, $chieuCao) {
     for ($i = 0; $i < $chieuCao; $i++) {
         for ($j = 0; $j < $chieuRong; $j++) {
             echo "*";
         }
-        echo "\n"; 
+        // Dùng thẻ <br> để xuống dòng trên giao diện web
+        echo "<br>"; 
     }
 }
 
